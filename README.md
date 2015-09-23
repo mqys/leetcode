@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 #leetcode notes
 repo for my leetcode
 
