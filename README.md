@@ -12,3 +12,4 @@ repo for my leetcode
 * **按层遍历树：**
 	1. add NULL to the queue, and iterate to the NULL, level up, add another NULL, be careful with the end case
 	2. recursive with depth paremeter 
+	3. record the num of node in the queue, then iterate num times as a round/level
