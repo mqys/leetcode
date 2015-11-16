@@ -25,3 +25,7 @@ repo for my leetcode
   2. recursive with depth paremeter 
   3. record the num of node in the queue, then iterate num times as a round/level
   ```
+
+* 联系图形，考虑问题
+
+* 图形题目，分别考虑x,y， 分解，而不是当作整体考虑
