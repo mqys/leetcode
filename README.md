@@ -29,3 +29,11 @@ repo for my leetcode
 * 联系图形，考虑问题
 
 * 图形题目，分别考虑x,y， 分解，而不是当作整体考虑
+
+* bit manipulation: usage of XOR, consider one bit, then the whole number
+	- [single number](./singleNumber.cc)
+	- [single numberII](./singleNumberII.cc)
+	- [single numberIII](./singleNumberIII.cc)
+
+
+
