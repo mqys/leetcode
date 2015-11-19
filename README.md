@@ -35,5 +35,4 @@ repo for my leetcode
 	- [single numberII](./singleNumberII.cc)
 	- [single numberIII](./singleNumberIII.cc)
 
-
-
+* 分析结果的构成要素，逐个找到各个要素的求解方法
