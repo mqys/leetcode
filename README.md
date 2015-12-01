@@ -36,3 +36,14 @@ repo for my leetcode
 	- [single numberIII](./singleNumberIII.cc)
 
 * 分析结果的构成要素，逐个找到各个要素的求解方法
+
+* Binary Tree Traversal, use O(1) space, no stack(morris traversal):
+```
+change the right child of predecessor to cur and change it back when get to it second time
+rules:
+  1. if the cur->left is NULL, cur = cur->right;
+  2. if cur->left != NULL, find the predecessor(rightest of left subtree) 
+    1) if predecessor->right == NULL, pre->right = cur, cur = cur->left
+    2) if pre->right == cur, pre->right = NULL, cur = cur->right
+  3. goto 1.
+```             
