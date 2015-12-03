@@ -31,6 +31,7 @@ repo for my leetcode
 * 图形题目，分别考虑x,y， 分解，而不是当作整体考虑
 
 * bit manipulation: usage of XOR, consider one bit, then the whole number
+  - common trick: double XOR means nothing 
 	- [single number](./singleNumber.cc)
 	- [single numberII](./singleNumberII.cc)
 	- [single numberIII](./singleNumberIII.cc)
@@ -47,3 +48,6 @@ rules:
     2) if pre->right == cur, pre->right = NULL, cur = cur->right
   3. goto 1.
 ```             
+
+* linked list cycle: 
+	- two pointers: fast one and slow one, if the fast catches the slow then there is cycle
