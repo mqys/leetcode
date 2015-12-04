@@ -51,3 +51,4 @@ rules:
 
 * linked list cycle: 
 	- two pointers: fast one and slow one, if the fast catches the slow then there is cycle
+	
