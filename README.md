@@ -51,4 +51,8 @@ rules:
 
 * linked list cycle: 
 	- two pointers: fast one and slow one, if the fast catches the slow then there is cycle
+
+* use tables to record situations when a lot of cases need to be solved
+    - [Integer To Roman](./integerToRoman.cc)
+
 	
