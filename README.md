@@ -55,4 +55,8 @@ rules:
 * use tables to record situations when a lot of cases need to be solved
     - [Integer To Roman](./integerToRoman.cc)
 
-	
+* divide and conquer:
+    - divide the case into two parts: whether containing the mid 
+    -  [Maximum Subarray](./maximumSubarray.cc)
+    	
+
